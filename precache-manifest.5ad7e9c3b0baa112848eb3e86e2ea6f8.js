@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "de129f0d23ac574e10ae",
+    "revision": "4f0be224d76342ecc9db",
     "url": "/react-substitutions-ui5-webparts/static/css/main.311bfc70.chunk.css"
   },
   {
-    "revision": "de129f0d23ac574e10ae",
-    "url": "/react-substitutions-ui5-webparts/static/js/main.de129f0d.chunk.js"
+    "revision": "4f0be224d76342ecc9db",
+    "url": "/react-substitutions-ui5-webparts/static/js/main.4f0be224.chunk.js"
   },
   {
     "revision": "971b58026f7f91d16335",
     "url": "/react-substitutions-ui5-webparts/static/js/runtime~main.971b5802.js"
   },
   {
-    "revision": "f7740b050f4ed0467463",
-    "url": "/react-substitutions-ui5-webparts/static/js/2.f7740b05.chunk.js"
+    "revision": "98f7bf1384c95bfafc14",
+    "url": "/react-substitutions-ui5-webparts/static/js/2.98f7bf13.chunk.js"
   },
   {
     "revision": "619772be1649c50cbeb670f5379de91a",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/react-substitutions-ui5-webparts/static/media/SAP-icons.7d7f4b76.woff2"
   },
   {
-    "revision": "4949877aa61ce1241bdd1fa55f016f3c",
+    "revision": "feb49ee0aee9b600ab0e28eb7c93f885",
     "url": "/react-substitutions-ui5-webparts/index.html"
   }
 ];
