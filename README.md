@@ -1,3 +1,5 @@
+Published at: https://trulsaa.github.io/react-substitutions-ui5-webparts/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
