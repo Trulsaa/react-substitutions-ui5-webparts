@@ -1,26 +1,58 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "@ui5/webcomponents/dist/Icon";
+
+import React, { Component } from "react";
+import styled from "styled-components";
+
+import HeaderContent from "./components/HeaderContent";
+import ListContent from "./components/ListContent";
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    "header header header"
+    "list view view"
+    "footer footer footer";
+  height: 100vh;
+`;
+
+const Header = styled.div`
+  grid-area: header;
+`;
+
+const List = styled.div`
+  grid-area: list;
+  overflow: auto;
+`;
+
+const View = styled.div`
+  grid-area: view;
+  display: grid;
+  overflow: auto;
+`;
+
+const Footer = styled.div`
+  grid-area: footer;
+`;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Grid>
+        <Header>
+          <HeaderContent />
+        </Header>
+        <List>
+          <ListContent />
+        </List>
+        <View>
+          <ui5-icon class="samples-margin" src="sap-icon://employee" />
+        </View>
+        <Footer>
+          <HeaderContent />
+        </Footer>
+      </Grid>
     );
   }
 }
