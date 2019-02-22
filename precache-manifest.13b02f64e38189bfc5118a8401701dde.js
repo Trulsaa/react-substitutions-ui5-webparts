@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b62be57665586e418328",
+    "revision": "de129f0d23ac574e10ae",
     "url": "/react-substitutions-ui5-webparts/static/css/main.311bfc70.chunk.css"
   },
   {
-    "revision": "b62be57665586e418328",
-    "url": "/react-substitutions-ui5-webparts/static/js/main.b62be576.chunk.js"
+    "revision": "de129f0d23ac574e10ae",
+    "url": "/react-substitutions-ui5-webparts/static/js/main.de129f0d.chunk.js"
   },
   {
     "revision": "971b58026f7f91d16335",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/react-substitutions-ui5-webparts/static/media/SAP-icons.7d7f4b76.woff2"
   },
   {
-    "revision": "75db1e665be9ed5e8e509c3063d5e1e7",
+    "revision": "4949877aa61ce1241bdd1fa55f016f3c",
     "url": "/react-substitutions-ui5-webparts/index.html"
   }
 ];
