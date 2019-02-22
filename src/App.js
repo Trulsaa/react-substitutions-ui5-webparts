@@ -9,7 +9,7 @@ import ListContent from "./components/ListContent";
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: auto 1fr auto
   grid-template-areas:
     "header header header"
     "list view view"
